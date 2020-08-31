@@ -28,10 +28,14 @@ form{
         @extend %common1;
         border: 2px solid rgb(155, 141, 141);
     }
-    input[type =text]:hover
+    input[type=text]:hover
     {
         @extend %common1;          
         border: 2px solid black;
+    }
+    input[type=text]:focus
+    {        
+        outline: none;
     }
     button
     {
