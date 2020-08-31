@@ -20,6 +20,8 @@ form input[type=text] {
   border: 2px solid #9b8d8d; }
 form input[type=text]:hover {
   border: 2px solid black; }
+form input[type=text]:focus {
+  outline: none; }
 form button {
   margin-left: 515px;
   width: 175px;
